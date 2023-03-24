@@ -35,7 +35,7 @@ root = tree.getroot()
 
 tracks = getTracks(root)
 print(len(tracks)+" track poinst found")
-unaccuracy = 6  # metre
+unaccuracy = 6  # meter
 difference = unaccuracy/70_000  # degree
 direction = 0
 dirDif = math.pi*0.7
